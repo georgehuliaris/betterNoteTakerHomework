@@ -1,3 +1,11 @@
+const express = require("express");
+const path = require("path");
+const http = require("http");
+const fs = require("fs");
+
+const app = express();
+const PORT = 3000;
+
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -26,7 +34,8 @@ const hide = (elem) => {
 let activeNote = {};
 
 const getNotes = () =>
-  fetch('/api/notes', {
+console.log("In getNotes function");
+  return fetch('/api/notes', {
     method: 'GET',
     headers: {
       'Content-Type': 'application/json',
