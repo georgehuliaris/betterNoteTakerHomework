@@ -1,9 +1,9 @@
-const notesArray = [
-    {
-      noteTitle: '',
-      noteText: ''
-    },
-  ];
+// const notesArray = [
+//     {
+//       noteTitle: '',
+//       noteText: ''
+//     },
+//   ];
 
 
-  module.exports = notesArray;
+//   module.exports = notesArray;
