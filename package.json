@@ -1,19 +1,17 @@
 {
   "name": "betternotetakerhomework",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/georgehuliaris/betterNoteTakerHomework.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/georgehuliaris/betterNoteTakerHomework/issues"
+  "dependencies": {
+    "express": "^4.17.1"
   },
-  "homepage": "https://github.com/georgehuliaris/betterNoteTakerHomework#readme"
+  "keywords": [],
+  "devDependencies": {},
+  "description": ""
 }
